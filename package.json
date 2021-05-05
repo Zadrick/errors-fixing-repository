@@ -5,7 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist",
+    "init": "npm i && tsc --build && (cd ui && npm i)",
+    "init-backend": "npm i && tsc --build"
   },
   "keywords": [],
   "author": "",
